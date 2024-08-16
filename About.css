@@ -1,0 +1,57 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #810c0c;
+    height: 50px;
+}
+
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(194, 194, 194);
+    flex-wrap: wrap;
+    line-height: 1.6;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+/* Header styles */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #ffffff;
+    color: #f38383;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 1.6;
+    margin: 0px 30px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header h1 {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: #000000;
+    font-weight: bold;
+}

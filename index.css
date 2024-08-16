@@ -1,0 +1,218 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(194, 194, 194);
+    flex-wrap: wrap;
+    line-height: 1.6;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+/* Header styles */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #ffffff;
+    color: #f38383;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 1.6;
+    margin: 0px 30px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header h1 {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: #000000;
+    font-weight: bold;
+}
+.welcome .image-container {
+    position: relative;
+    width: 1900px;
+}
+.image-container .heading {
+    position: absolute;
+    top: 20%; /* Position the heading in the middle of the image */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the heading */
+    color: white; /* Choose a color that contrasts with your image */
+    font-size: 2em; /* Adjust size as needed */
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7); /* Optional: Add a shadow for better readability */
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.welcoming-message p{
+    font-family: Copperplate Gothic Bold;
+    font-size: medium;
+    font-size: 20px;
+}
+.donate-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 500px;
+    gap: 20px;   
+    flex-wrap: wrap;
+}
+.welcoming-getintouch{
+    display: flex;
+    flex-direction: column;
+    background-color: #ece9e9;
+    gap: 30px;
+    padding: 15px 15px;
+}
+.welcoming-getintouch li{
+    color: rgb(204, 89, 108);
+    font-weight: bold;
+    font-size: larger;
+}
+.welcoming-message{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 50%;
+}
+.welcoming-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.information-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.information2-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.donat{
+    display: flex;
+    justify-content: center;
+    background-color: #166d00;
+    width: 300px;
+    height: 197px;
+}
+.donat h1 {
+    padding-top: 75px;
+
+}
+.donat a{
+    color: #ffffff;
+}
+.location{
+    justify-content: center;
+    background-color: rgba(223, 171, 0, 0.829);
+    color: #1000a3;
+    width: 300px;
+    height: 197px;
+}
+.location h3{
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.admissions{
+    display: flex;
+    justify-content: center;
+    background-color: #ffc400c9;
+    width: 300px;
+    height: 197px;
+}
+.contact{
+    justify-content: center;
+    background-color: #ffffffb7;
+    width: 300px;
+    height: 197px;
+}
+.contact h2{
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.contact h2 a{
+    color: #000000;
+}
+.admissions h1{
+    padding-top: 75px;
+
+}
+.admissions h1 a{
+    color: rgb(0, 0, 0);
+
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f38383;
+    animation-name: tornya;
+    animation-duration: 40s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes tornya{
+    from{background-color: rgb(0, 12, 173);}
+    to{background-color: rgb(206, 168, 0);}
+}
+.students{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 197px;
+}
+.students h1{
+    padding-top: 75px;
+}
+.don{
+    background-color: #f38383;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 197px;
+}
+.don h1{
+    padding-top: 75px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 197px;
+    background-color: rgb(168, 0, 0);
+
+}
+.con h2{
+    padding-top: 35px;
+    padding-left: 30px;
+}
+.con h2 a{
+    color: #fcce00;
+}

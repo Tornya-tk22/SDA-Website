@@ -1,0 +1,149 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(219, 218, 218);
+}
+/* Header styles */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #ffffff;
+    color: #f38383;
+    padding: 20px 0;
+    text-align: center;
+    line-height: 1.6;
+    margin: 0px 30px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header h1 {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: #000000;
+    font-weight: bold;
+}
+.elementary-admission p, h2{
+    font-weight: 600;
+}
+.ele-adm-information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.elementary-admission p{
+    font: 1.4em sans-serif;
+    font-weight: bold;
+}
+.elementary-admission h2{
+    font: 1.7em sans-serif;
+    font-weight: bold;
+}
+.H1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ele-adm-fees{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 800px;
+    gap: 10px;
+
+}
+.ele-adm-fees-sub{
+    border: none;
+    border-radius: 15px;
+    background-color: #f3838391;
+    font-size: 20px;
+    padding-left: 20px;
+    width: 350px;
+
+}
+.ele-adm-fees-su{
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #000000a8;
+    color: #ffffff;
+    padding-left: 20px;
+    width: 350px;
+}
+
+.ele-adm-fees-suc{
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #000000a8;
+    color: #ffffff;
+    padding-left: 20px;
+    width: 350px;
+}
+
+.ele-adm-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.btn{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    border:none;
+    background-color: #f38383d0;
+    justify-content: center;
+    border-radius: 30px;
+}
+.btn a{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: large;
+    padding-top: 15px;
+    color: #000000;
+}
+.btn:hover{
+    background-color: #b65252;
+}
+.logo{
+    position: absolute;
+    top: 11%; /* Position the heading in the middle of the image */
+    left: 8%;
+    transform: translate(-50%, -50%); /* Center the heading */
+}
+.logo-2{
+    position: absolute;
+    top: 14%; /* Position the heading in the middle of the image */
+    left: 89%;
+    transform: translate(-50%, -50%); /* Center the heading */
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+    justify-content: center;
+    color: #ffc400;
+    height: 50px;
+}

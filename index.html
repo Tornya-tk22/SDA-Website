@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinyea SDA</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+            <img src="Capture.png" alt="School Logo"  width="100px">
+            <img src="nad-education-logo.png" alt="Adventist school system logo" width="120px">
+        </div>
+     <h1>Sinyea Seventh-Day Adventist Elementary & Junior High School</h1>
+     <h3>Sinyea Town, Suakoko District, Bong County, Republic of Liberia</h3>
+        <nav>
+            <ul>
+                <li><a href="SDA Website.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="admission.html">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="admission.html">Donation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="welcome">
+        <div class="image-container" style="display: flex; flex-wrap: wrap; justify-content: center;">
+            <img src="image (1).png" alt="School Building" width="95%" id="slide">
+            <h1 class="heading">Motto: Redeem and Restore</h1>
+        </div>
+        <div class="information2-container">
+            <div class="don">
+                <h1><a href="donate.html">Donate</a></h1>
+            </div>
+            <div class="students">
+                <h1><a href="admission.html">Sponser Student</a></h1>
+            </div>
+            <div class="con">
+                <h2><a href="contact.html">Contact Us</a> <ul><li>tel: +231-888-217-480</li><li>+231-886-483-470</li></ul></h2>
+            </div>
+        </div>
+    </div><br>
+    <div class="welcoming-container">
+        <div class="welcoming-message">
+            <img src="nad-education-logo.png" alt="Adventist school system logo" width="330px">
+
+            <p>We are delighted to welcome you to [Sinyea Seventh-Day Adventist Elementary & Junior High School],
+                 where our mission is to provide
+             a nurturing and inspiring environment for every student to thrive.
+             Our dedicated faculty and staff are committed to fostering a love for learning, 
+             promoting academic excellence, and encouraging personal growth.</p>
+            <p>We invite you to explore our website to learn more about our programs, values, 
+                and the unique opportunities we offer. Whether you are a prospective student, a current family, or an alumnus, 
+                we hope you will find the information you need and feel the 
+                warmth and enthusiasm that defines our school.</p>
+        </div>
+        <div class="welcoming-getintouch">
+            <h1>Get In Touch</h1>
+            <li>Facebook@: Sinyea Seventh-Day Adventist School</li>
+            <li>Whatsapp@: +231-888-217-480</li>
+            <li>Email@: sinyeasdaschool@gmail.com</li>
+        </div>
+    </div><br><br><hr>
+    <div class="information-container">
+        <div class="location">
+            <h3>Location <ul><li>Sinyea Town, Suakoko District,</li><li>Bong County,</li><li>Liberia</li></ul></h3>
+        </div>
+        <div class="donat">
+            <h1><a href="donate.html">Donate</a></h1>
+        </div>
+        <div class="admissions">
+            <h1><a href="admission.html">Admission</a></h1>
+        </div>
+        <div class="contact">
+            <h2><a href="contact.html">Contact Us</a> <ul><li>tel: +231-888-217-480</li><li>+231-886-483-470</li></ul></h2>
+        </div>
+    </div><hr><br>
+    <footer>
+        <h2>&copy; Tornyafasaa Kanasuah</h2>
+    </footer>
+    <script >
+        const images = ['image (1).png', 'image (2).png', 'image (3).png', "img.jpg"];
+            let currentIndex = 0;
+            
+            const slide = document.getElementById('slide');
+            
+            function changeImage() {
+                currentIndex = (currentIndex + 1) % images.length;
+                slide.src = images[currentIndex];
+            }
+            
+            setInterval(changeImage, 5000);
+
+            </script>
+</body>
+</html>
